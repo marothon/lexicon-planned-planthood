@@ -7,6 +7,12 @@
     font-family: Maven Pro;
 }
 
+
+
+a{
+    text-decoration: none;
+}
+
 body{
     padding: 0;
     margin: 0;
@@ -132,5 +138,57 @@ main{
             background-color: var(--planthood-green);
             height: 3px;
         }
+    }
+}
+
+footer{
+    width: 100%;
+    height: 100vh;
+    color: white;
+
+    section.contact-us{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+        background-image: url("./assets/img/hand-on-plants.avif");
+        background-size: cover;
+
+        section.contact-info{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            grid-row: 2;
+            height: 48vh;
+            background: rgba(0, 0, 0, 0.75);
+
+            h1{
+                margin: auto;
+                font-size: 3rem;
+                font-weight: normal;
+
+            }
+            div{
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+
+                img{
+                    line-height: 2rem;
+                }
+            }
+        }
+
+       > img{
+            box-sizing: border-box;
+            width: 100%;
+            padding: 5rem;
+            height: 48vh;
+        }
+
+    }
+
+    a{
+        margin: auto;
+        width: fit-content;
     }
 }
