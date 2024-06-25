@@ -82,29 +82,30 @@ header{
 }
 
 main{
-    section.tips{
+    section.tips, section.history{
         h1{
             font-weight: 500;
             text-align: center;
             color: var(--planthood-green)
         }
 
+        aside.tips-hero, aside.history-hero{
+            margin: auto;
+            background-color: var(--planthood-green);
+            padding: 4rem;
+            border-radius: 50%;
+            width: fit-content;
+
+            img{
+                width: 35vw;
+                height: 35vw;
+            }
+        }
+
         section{
             display: flex;
             flex-direction: column;
             justify-content: space-between;
-
-            aside.tips-hero{
-                margin: auto;
-                background-color: var(--planthood-green);
-                padding: 5rem;
-                border-radius: 50%;
-                width: fit-content;
-
-                img{
-                    width: 30vw;
-                }
-            }
 
             article{
                 padding: 1.5rem;
@@ -119,7 +120,7 @@ main{
                     font-size: 0.875rem;
                 }
 
-                aside.plant-advice-button{
+                aside.plant-advice-button, aside.plant-history-button{
                     width: fit-content;
                     height: fit-content;
                     margin: 2rem auto auto auto;
