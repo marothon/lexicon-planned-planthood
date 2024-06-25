@@ -160,12 +160,12 @@ footer{
             flex-direction: column;
             justify-content: space-between;
             grid-row: 2;
-            height: 48vh;
+            height: 47vh;
             background: rgba(0, 0, 0, 0.75);
 
             h1{
                 margin: auto;
-                font-size: 3rem;
+                font-size: 3.5rem;
                 font-weight: normal;
 
             }
@@ -173,9 +173,23 @@ footer{
                 display: flex;
                 justify-content: space-between;
                 align-items: center;
-
+                padding: 1rem;
+                
                 img{
                     line-height: 2rem;
+                    width: 1.5rem;
+                }
+
+                > section{
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+
+                    > *{
+                        display: inline;
+                        margin: auto;
+                        padding: 0.25rem;
+                    }
                 }
             }
         }
@@ -184,14 +198,21 @@ footer{
             box-sizing: border-box;
             width: 100%;
             padding: 5rem;
-            height: 48vh;
+            height: 47vh;
         }
+
+       
 
     }
 
     a{
         margin: auto;
         width: fit-content;
+    }
+
+    > p {
+        display: flex;
+        justify-content: space-around;
     }
 }
 
