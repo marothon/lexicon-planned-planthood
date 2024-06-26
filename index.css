@@ -415,6 +415,86 @@ footer{
             }
 
         }
+
+        section.planned-plantations{
+            h3{
+                font-size: 2rem;
+            }
+
+            .plantation-card-container{
+                justify-content: space-evenly;
+
+                .plantation-card{
+                    max-width: 30%;
+
+                    .plantation-card-banner{
+                        img{
+                            height: initial;
+                            aspect-ratio: 1 / 1;
+                        }
+
+                        img:nth-of-type(1){
+                            object-fit: cover;
+                        }
+
+                        img:nth-of-type(2){
+                            width: 70%;
+                        }
+                    }
+
+                    .plantation-card-details{
+                        padding: 1rem;
+
+                        > h4{
+                            font-weight: 500;
+                            font-size: 1.5rem;
+                        }
+    
+                        > .plantation-user{
+                            font-weight: 100;
+                            font-size: 1rem;
+                        }
+    
+                        > *{
+                            margin: 0;
+                        }
+    
+                        > p:nth-of-type(1), > a{
+                            text-align: right;
+                        }
+    
+                        > .plantation-remove{
+                            > p{
+                                display: initial;
+                                color: white;
+                                background-color: #B93857;
+                                font-size: 1rem;
+                                font-weight: 500;
+                                padding: 0.25rem 0.7rem 0.25rem 0.7rem;
+                                border-radius: 0.25rem;
+                            }
+
+                            > img{
+                                display: none;
+                            }
+                        }
+                        
+                        > .plantation-date{
+                            font-size: 1.1rem;
+                            font-weight: 500;
+                            line-height: 1.75rem;
+                        }
+                    }
+                }
+            }
+
+            .more-plantations{
+                text-transform: initial;
+                font-weight: 400;
+                font-size: 1.5rem;
+                padding: 1rem 2rem 1rem 2rem;
+            }
+        }
     }
 
     footer{
