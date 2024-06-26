@@ -323,5 +323,39 @@ footer{
                 color: var(--planthood-dark-green);
             }
         }
+
+        .hero{
+            height: 30rem;
+            grid-template-columns: 1fr 1fr; 
+            grid-template-rows: 1fr 1fr; 
+
+            aside{
+                img{
+                    height: 12.5rem;
+                }
+            }
+
+            aside:nth-child(1){
+                grid-column: 1;
+                grid-row: span 2;
+                background-size: cover;
+                background-position: center;
+                background-image: url("./assets/img/plant-in-hand.jpg");
+            }
+    
+            aside:nth-child(2){
+                background-color: var(--planthood-brown);
+                grid-column: 2;
+                grid-row: 1;
+            }
+    
+            aside:nth-child(3){
+                background-color: var(--planthood-green);
+                grid-column: 2;
+                grid-row: 2;
+            }
+        }
+
+
     }
 }
