@@ -358,4 +358,65 @@ footer{
 
 
     }
+
+    main{
+        h1{
+            font-size: 3rem;
+        }
+
+        section.tips, section.history{
+            > section{
+                flex-direction: row-reverse;
+                justify-content: space-around;
+                align-items: center;
+                padding-left: 2rem;
+                padding-right: 2rem;
+
+                article{
+                    width: 50%;
+                    padding: 1.5rem;
+                    font-family: "Open Sans";
+                    text-align: left;
+    
+                    h2{
+                        font-size: 2rem;
+                    }
+    
+                    p{
+                        font-size: 0.875rem;
+                    }
+
+                    >  .planthood-button{
+                        font-weight: 400;
+                        font-size: 1.5rem;
+                        padding: 1rem 2.5rem 1rem 2.5rem;
+                        margin: auto 0 auto auto;
+                    }
+
+                }
+            }
+            aside.tips-hero, aside.history-hero{
+                margin: 0;
+                padding: 5rem;
+
+                img{
+                    width: 11rem;
+                    height: 11rem;
+                }
+            }
+        }
+
+        section.history {
+            margin-bottom: 4rem;
+
+            > section {
+                article{
+                    >  .planthood-button{
+                        margin: auto auto auto 0;
+                    }
+                }
+            }
+
+        }
+    }
 }
