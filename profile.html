@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mina Sidor</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="profile.css">
+</head>
+<body>
+    <div class="wrapper">
+        <header>
+            <nav>
+                <a href="#planned-plantations">PLANER</a>
+                <a href="#history">HISTORIK</a>
+                <a href="#tips">TIPS</a>
+                <a href="#login">LOGGA IN</a>
+            </nav>
+            <section class="hero">
+                <aside>
+                <img alt="Logotyp" src="./assets/Logo.svg">
+                <h1>Mina sidor</h1>
+                </aside>
+            </section>
+            <aside class="menu-burger">☰</aside>
+            
+        </header>
+        <main>
+            <section class="create-plantation-form">
+                <h2>Lägg till ny plantering:</h2>
+                <form>
+                    <label for="plant-name">Planta:</label>
+                    <input id="plant-name" type="text">
+                    <label for="plant-date">Datum:</label>
+                    <input id="plant-date" type="text">
+                    <button class="planthood-button" type="submit">LÄGG TILL</button>
+                </form>
+            </section>
+            <section id="your-planned-plantations" class="planned-plantations">
+                <h3>Dina planerade planteringar:</h3>
+                <div class="plantation-card-container">
+                  <article class="plantation-card">
+                    <div class="plantation-card-banner">
+                      <img alt="Vegetable" src="./assets/img/cucumber.avif">
+                      <img alt="Planta" src="./assets/plant.svg">
+                    </div>
+                    <section class="plantation-card-details">
+                      <h4>Gurka</h4>
+                      <p class="plantation-date">15 april 2024</p>
+                      <p class="plantation-user">Rico Coolio</p>
+                      <a class="plantation-remove">
+                        <p>TA BORT</p>
+                        <img alt="TA BORT" src="./assets/trashcan.svg">
+                      </a>
+                    </section>
+                  </article>
+                </div>
+
+                <h3>Dina planterade planteringar:</h3>
+                <div class="plantation-card-container">
+                  <article class="plantation-card">
+                    <div class="plantation-card-banner">
+                      <img alt="Vegetable" src="./assets/img/cucumber.avif">
+                      <img alt="Planta" src="./assets/plant.svg">
+                    </div>
+                    <section class="plantation-card-details">
+                      <h4>Gurka</h4>
+                      <p class="plantation-date">15 april 2024</p>
+                      <p class="plantation-user">Rico Coolio</p>
+                      <a class="plantation-remove">
+                        <p>TA BORT</p>
+                        <img alt="TA BORT" src="./assets/trashcan.svg">
+                      </a>
+                    </section>
+                  </article>
+                  <article class="plantation-card">
+                    <div class="plantation-card-banner">
+                      <img alt="Vegetable" src="./assets/img/tomato.avif">
+                      <img alt="Planta" src="./assets/plant.svg">
+                    </div>
+                    <section class="plantation-card-details">
+                      <h4>Tomat</h4>
+                      <p class="plantation-date">1 april 2024</p>
+                      <p class="plantation-user">Jocke</p>
+                      <a class="plantation-remove">
+                        <p>TA BORT</p>
+                        <img alt="TA BORT" src="./assets/trashcan.svg">
+                      </a>            
+                    </section>
+                  </article>
+                </div>
+            </section>
+        </main>
+        <footer>
+            <div class="footer-gallery">
+                <img alt="Man som plockar grönsaker">
+                <img alt="Vattenkanna över plantor">
+                <img alt="Två skålar med grönsaker och en hög med morötter">
+                <img alt="En grönsaksplockare som ler mot kameran och en som hukar för att plocka grönsaker">
+            </div>
+            <p>
+                <a href="#">Till toppen av sidan</a>
+            </p>
+        </footer>
+    </div>
+</body>
+</html>
