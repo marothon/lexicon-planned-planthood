@@ -130,6 +130,38 @@ footer {
 }
 
 @media (width >= 1000px){
+    main{
+        section.create-plantation-form{
+            margin-top: 4rem;
+            margin-bottom: 4rem;
+
+            > h2{
+                margin-left: 1rem;
+                margin-bottom: 0;
+                text-align: left;
+                font-weight: 400;
+                font-size: 2rem;
+            }
+            > form {
+                grid-template-columns: 1fr 1fr;
+                grid-template-rows: 1fr;
+    
+                .text-input-wrapper{
+                    padding: 1rem;
+                }
+    
+                button{
+                    display: block;
+                    grid-column: span 2;
+                    font-size: 1rem;
+                    font-weight: 600;
+                    margin-top: 1rem;
+                    padding: 1rem 2rem 1rem 2rem;
+                }
+            }
+        }
+    }
+
     footer {
         height: inherit;
         .footer-gallery{
