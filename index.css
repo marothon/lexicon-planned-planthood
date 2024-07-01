@@ -170,6 +170,10 @@ main{
                         width: 100%;
                     }
 
+                    img:nth-of-type(1){
+                        object-fit: cover;
+                    }
+                    
                     img:nth-of-type(2){
                         margin: auto;
                         width: 40%;
@@ -431,10 +435,6 @@ footer{
                         img{
                             height: initial;
                             aspect-ratio: 1 / 1;
-                        }
-
-                        img:nth-of-type(1){
-                            object-fit: cover;
                         }
 
                         img:nth-of-type(2){
